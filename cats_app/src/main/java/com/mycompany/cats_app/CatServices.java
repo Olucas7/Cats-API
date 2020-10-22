@@ -71,6 +71,7 @@ public class CatServices {
                     break;
                 case 1:
                     favoritoGato(cats);
+                    showCats();
                     break;
                 default:
                     break;
@@ -165,6 +166,7 @@ public class CatServices {
                         deleteFavorite(gatofav);
                         break;
                     default:
+                        showCats();
                         break;
                 }
 

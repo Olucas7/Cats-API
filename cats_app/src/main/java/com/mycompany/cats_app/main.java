@@ -31,6 +31,7 @@ public class main {
                 case 1:
                     Cat cat = new Cat();
                     showFavorite(cat.getApi_key());
+                    break;
                 default:
                     break;
             }
